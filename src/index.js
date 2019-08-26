@@ -3,7 +3,7 @@ var app = express();
 var path = require("path");
 
 app.get("/", function(req, res) {
-  res.send("Hello World 3!");
+  res.send("Hello World 4!");
 });
 
 app.use("/.well-known", express.static(path.resolve(__dirname, ".well-known")));
